@@ -1,4 +1,8 @@
-Add weekly_sales to features.csv
+Change dates in features from str to int
+Add weekly_sales to features.csv (null values where date not present)
+Check rows with null values in features.csv
+Determine if rows with null values to be removed or not
+Remove (or not)
 Save and upload new features_clean.csv
 Split the df by store
 Join the store df's back, intersecting on date
