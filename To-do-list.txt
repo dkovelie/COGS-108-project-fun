@@ -1,3 +1,4 @@
+Add weekly_sales to features.csv
 Save and upload new features_clean.csv
 Split the df by store
 Join the store df's back, intersecting on date
