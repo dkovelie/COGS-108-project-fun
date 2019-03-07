@@ -1,6 +1,3 @@
-For features.csv, drop columns Markdown 1-5
-For train.csv, sum each row for each department for each date to get weekly sales for each store for each date
-Add weekly_sales column to features.csv on store and date
-Transform values in date column to remove dashes and then convert value to int
+Save and upload new features_clean.csv
 Split the df by store
 Join the store df's back, intersecting on date
