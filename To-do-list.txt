@@ -17,6 +17,7 @@ Create basic equation relating unemployment to factors
 Pair factors up to see how much each factor influences the other
 Remove less important factor with more than 0.75 correspondance (too related)
 Update equation
+Rinse and repeat until no more related (0.75) factors left
 sm.OLS time  outcome, predictors = patsy.dmatrices('unemployment ~ [factor1, factor2, etc...]', main_features)
 mod = sm.OLS(outcome, prectors)
 res = mod.fit()
