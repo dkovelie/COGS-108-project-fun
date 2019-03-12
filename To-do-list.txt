@@ -6,3 +6,19 @@ Remove (or not)
 Save and upload new features_clean.csv
 Split the df by store
 Join the store df's back, intersecting on date
+Change IsHoliday column to be booleans (if not already)
+Save and upload new main_features.csv
+
+Analysis time~
+(May not end up doing anything on a by-store basis, tbd)
+Correlate each of the main factors with unemployment
+Determine which factors are relevant in influencing unemployment
+Create basic equation relating unemployment to factors
+Pair factors up to see how much each factor influences the other
+Remove less important factor with more than 0.75 correspondance (too related)
+Update equation
+sm.OLS time  outcome, predictors = patsy.dmatrices('unemployment ~ [factor1, factor2, etc...]', main_features)
+mod = sm.OLS(outcome, prectors)
+res = mod.fit()
+print(res.summary())
+Word time
