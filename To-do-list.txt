@@ -1,13 +1,12 @@
-Change dates in features from str to int
-Add weekly_sales to features.csv (null values where date not present)
 Check rows with null values in features.csv
 Determine if rows with null values to be removed or not
 Remove (or not)
+Remove rows with no unemployment value
 Save and upload new features_clean.csv
 Split the df by store
 Join the store df's back, intersecting on date
 Change IsHoliday column to be booleans (if not already)
-Save and upload new main_features.csv
+Save and upload new main_features.csvx
 
 Analysis time~
 (May not end up doing anything on a by-store basis, tbd)
