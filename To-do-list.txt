@@ -1,6 +1,4 @@
-
 Analysis time~
-(May not end up doing anything on a by-store basis, tbd)
 Correlate each of the main factors with unemployment
 Determine which factors are relevant in influencing unemployment
 Create basic equation relating unemployment to factors
