@@ -1,3 +1,11 @@
+Split features into dfs by store (df1, df2, ... df45)
+Correlate each of the main factors with unemployment
+Determine which factors are relevant in influencing unemployment
+Create basic equation relating unemployment to factors
+Pair factors up to see how much each factor influences the other
+Remove less important factor with more than 0.75 correspondance (too related)
+Update equation
+
 Analysis time~
 Correlate each of the main factors with unemployment
 Determine which factors are relevant in influencing unemployment
