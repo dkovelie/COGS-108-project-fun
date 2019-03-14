@@ -19,5 +19,12 @@ mod = sm.OLS(outcome, prectors)
 res = mod.fit()
 print(res.summary())
 
+Analysis 2
+Standardize data (for each data point, subtract mean and divide by stdr dv)
+
 Word time
 Make Jupyter notebook file for final submission
+
+
+Analysis: how much change in weekly sales (or other factors) leads to a change in unemployment
+How much is a single job worth?
