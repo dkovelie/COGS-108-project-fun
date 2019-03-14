@@ -1,16 +1,6 @@
-Split features into dfs by store (df1, df2, ... df45)
-Correlate each of the main factors with unemployment
-Determine which factors are relevant in influencing unemployment
-Create basic equation relating unemployment to factors
-Pair factors up to see how much each factor influences the other
-Remove less important factor with more than 0.75 correspondance (too related)
-Update equation
+Write standardize function equation
 
-Analysis time~
-Correlate each of the main factors with unemployment
-Determine which factors are relevant in influencing unemployment
-Create basic equation relating unemployment to factors
-Pair factors up to see how much each factor influences the other
+Check for co-linearity
 Remove less important factor with more than 0.75 correspondance (too related)
 Update equation
 Rinse and repeat until no more related (0.75) factors left
@@ -25,6 +15,6 @@ Standardize data (for each data point, subtract mean and divide by stdr dv)
 Word time
 Make Jupyter notebook file for final submission
 
+Discuss which features are/aren't relevant and to what degree
 
 Analysis: how much change in weekly sales (or other factors) leads to a change in unemployment
-How much is a single job worth?
