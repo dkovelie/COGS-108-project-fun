@@ -10,4 +10,6 @@ sm.OLS time  outcome, predictors = patsy.dmatrices('unemployment ~ [factor1, fac
 mod = sm.OLS(outcome, prectors)
 res = mod.fit()
 print(res.summary())
+
 Word time
+Make Jupyter notebook file for final submission
